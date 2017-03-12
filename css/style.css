@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Scope+One');
+body {
+	background: white;
+	font-family: 'Scope One', serif;
+}
+
+.navbar {
+    border-radius: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:white;
+    font-weight: bold;
+}
+.navbar-inverse .dropdown-menu {
+	background: black;
+}
+.navbar-inverse .dropdown-menu li a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: grey;
+    color: gold;
+}
+.navbar-inverse .navbar-nav .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .dropdown-menu> li > a:focus {
+    background-color: grey;
+    color: gold;
+}
+.navbar-header .navbar-brand:hover {
+	    color: gold;
+}
+header{
+    height: 200px;
+    background: url(/img/back.jpg) no-repeat center;
+}
+
+header.img{
+    
+}
+
+img.thumbnail {
+    max-height: 250px;
+    max-width: 250px;
+    display: inline-block;
+}
+.thumbnail {
+	border-color: black;
+}
+iframe {
+	padding-bottom: 30px;
+}
+#logo{
+    width: 250px;
+    height: 200px;
+}
